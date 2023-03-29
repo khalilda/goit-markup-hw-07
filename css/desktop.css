@@ -32,6 +32,18 @@
         max-width: 1440px;
     }
 
+    @media (min-device-pixel-ratio: 2), 
+    (min-resolution: 192dpi), 
+    (min-resolution: 2ddpx) {
+    .hero {
+        background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7), 
+        rgba(46, 47, 66, 0.7)
+        ), 
+        url(../images/desktop-hero.jpg);
+    }
+}
+
 
     .hero-head {
         font-size: 56px;
@@ -96,6 +108,7 @@
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
         border-radius: 0px 0px 4px 4px;
     }
+    
 
 
     .wwd-size {
