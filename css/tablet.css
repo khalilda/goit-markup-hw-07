@@ -20,7 +20,8 @@
             rgba(46, 47, 66, 0.7)
             ), 
             url(../images/tab-hero.jpg);
-        
+        padding-top: 112px;
+        padding-bottom: 112px;
     }
 
 
@@ -87,12 +88,14 @@
         align-items: baseline;
         padding-right: 24px;
         margin-bottom: 72px;
+        padding-top: 96px;
     }
     
     .footer-display {
         display: flex; 
         flex-direction: row; 
         flex-wrap: wrap;
+        padding-left: 108px;
     }
 
     .footer-social-media {
@@ -100,6 +103,7 @@
         flex-direction: column;
         flex-wrap: wrap;
         align-items: baseline;
+        padding-top: 96px;
     }
 
 

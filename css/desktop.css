@@ -143,7 +143,19 @@
         padding-right: 24px;
     }
 
+    .footer-social-media {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
 
+    .footer-subs {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
 
 
 }
