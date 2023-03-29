@@ -1,0 +1,14 @@
+@media screen and (min-width: 480px) {
+    .container { 
+    max-width: 428px; 
+    }
+    
+    
+
+    .our-team {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
+
+}
