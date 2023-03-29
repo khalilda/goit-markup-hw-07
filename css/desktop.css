@@ -32,6 +32,18 @@
         max-width: 1440px;
     }
 
+    @media (min-device-pixel-ratio: 2), 
+    (min-resolution: 192dpi), 
+    (min-resolution: 2ddpx) {
+    .hero {
+        background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7), 
+        rgba(46, 47, 66, 0.7)
+        ), 
+        url(../images/desktop-hero.jpg);
+    }
+}
+
 
     .hero-head {
         font-size: 56px;
@@ -96,6 +108,7 @@
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
         border-radius: 0px 0px 4px 4px;
     }
+    
 
 
     .wwd-size {
@@ -131,6 +144,7 @@
         display: flex;
         flex-wrap: nowrap; 
         margin-left: auto;
+        margin-top: 96px;
     }
     
     .footer-form {
@@ -140,10 +154,38 @@
 
     .footer-form-input {
         width: 264px;
-        padding-right: 24px;
+        margin-right: 24px;
     }
 
 
+    .footer-text-two {
+        display: flex;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        margin-bottom: 14px;
+        /* margin-top: 96px; */
+    }
+    
+
+    .footer-social-media {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: 96px;
+    }
+
+    .footer-subs {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
 
 
 }
