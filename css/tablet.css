@@ -24,7 +24,7 @@
         padding-bottom: 112px;
     }
 
-    @media (min-device-pixel-ratio: 2), 
+    /* @media (min-device-pixel-ratio: 2), 
     (min-resolution: 192dpi), 
     (min-resolution: 2ddpx) {
     .hero {
@@ -34,7 +34,7 @@
         ), 
         url(../images/tab-hero.jpg);
     }
-}
+} */
 
 
     .hero-head {
