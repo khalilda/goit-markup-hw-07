@@ -102,6 +102,7 @@ img {
     align-items: center;
     padding-top: 24px;
     padding-bottom: 24px;
+    justify-content: space-between;
 }
 .header-navigation {
     display: flex;
@@ -194,6 +195,14 @@ img {
 .contact-tel:focus {
     color: var(--accent-color);
 }
+
+
+
+
+
+
+
+
 /* /Head Text */
 
 
@@ -797,7 +806,7 @@ img {
     color: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border: transparent;
-    margin-left: 24px;
+    /* margin-left: 24px; */
     transition: border-color var(--transition-dur-and-func);
 }
 
