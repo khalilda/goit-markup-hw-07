@@ -883,13 +883,6 @@ img {
     outline: none;
 }
 .js-close-menu {
-    /* position: absolute;
-    top: 48px;
-    right: 15px;
-    background-color: transparent;
-    border: none;
-    padding: 0;
-    line-height: 0; */
 }
 .mob-close-icon {
     position: absolute;
