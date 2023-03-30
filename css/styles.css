@@ -172,8 +172,7 @@ img {
     position: relative;
 }
 
-.header-link:hover,
-.header-link:focus {
+.header-link:active {
     color: var(--accent-color);
 }
 
@@ -194,8 +193,7 @@ img {
     color: var(--contact-color);
     gap: 40px;
 }
-.contact-mail:hover,
-.contact-mail:focus {
+.contact-mail:active {
     color: var(--accent-color);
 }
 .contact-tel {
@@ -205,8 +203,7 @@ img {
     letter-spacing: 0.02em;
     color: var(--contact-color);
 }
-.contact-tel:hover,
-.contact-tel:focus {
+.contact-tel:active {
     color: var(--accent-color);
 }
 
@@ -282,8 +279,7 @@ img {
     border: transparent;
 }   
 
-.hero-btn:hover,
-.hero-btn:focus {
+.hero-btn:active {
     background: var(--accent-color);
     color: #FFFFFF;
 } 
@@ -317,8 +313,6 @@ img {
     border-radius: 4px;
     margin-bottom: 8px;
     display: none;
-    /* justify-content: center;
-    align-items: center; */
     width: 264px;
     height: 112px;
 }
@@ -425,7 +419,7 @@ img {
     transition: fill var(--transition-dur-and-func);
 }
 
-.team-social-link:is(:hover, :focus) {
+.team-social-link:is(:active) {
     background-color: #404BBF;
 }
 .team-social-icon {
@@ -629,8 +623,7 @@ img {
     transition: fill var(--transition-dur-and-func);
 }
 
-.customers-link:hover,
-.customers-link:focus {
+.customers-link:active {
     color: #404BBF;
     border: 1px solid #404BBF
 }
@@ -746,7 +739,7 @@ img {
     transition: fill var(--transition-dur-and-func);
 }
 
-.footer-social-link:is(:hover, :focus) {
+.footer-social-link:is(:active) {
     background-color: #31D0AA;
 }
 .footer-social-icon {
@@ -824,8 +817,7 @@ img {
     transition: border-color var(--transition-dur-and-func);
 }
 
-.footer-btn:hover,
-.footer-btn:focus {
+.footer-btn:active {
     background: var(--accent-color);
     color: #FFFFFF;
 } 
@@ -1068,8 +1060,7 @@ background-color: #404BBF;
 
 
 
-.modal-close-btn:hover,
-.modal-close-btn:focus {
+.modal-close-btn:active {
     border-color: #4D5AE5;
     background-color: #4D5AE5;
 }
@@ -1079,8 +1070,7 @@ background-color: #404BBF;
     transition: fill var(--transition-dur-and-func);
 }
 
-.modal-close-btn:hover .modal-close-btn-icon,
-.modal-close-btn:focus .modal-close-btn-icon {
+.modal-close-btn:active .modal-close-btn-icon {
     fill: #FFFFFF;
 }
 /* /modal btn */
@@ -1096,8 +1086,6 @@ background-color: #404BBF;
 .form-text {
     display: flex;
     justify-content: center;
-    /* padding-top: 72px; */
-    /* padding-bottom: 16px; */
     margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
@@ -1142,8 +1130,7 @@ background-color: #404BBF;
     transition: border-color var(--transition-dur-and-func);
 }
 
-.form-btn:hover,
-.form-btn:focus {
+.form-btn:active {
     background: var(--accent-color);
     color: #FFFFFF;
 } 
@@ -1175,17 +1162,17 @@ background-color: #404BBF;
     transform: translateY(-50%);
 }
 
-.form-input:focus {
+.form-input:active {
     color: #4D5AE5;
 }
-.form-input:focus + .form-icon{
+.form-input:active + .form-icon{
     fill: #4D5AE5;
 }
-.form-group input:focus {
+.form-group input:active {
     border-color: #4D5AE5;
     outline: none;
   }
-.form-group input:focus::placeholder {
+.form-group input:active::placeholder {
     color: #4D5AE5;
 }
 
@@ -1206,15 +1193,15 @@ background-color: #404BBF;
     transition: border-color var(--transition-dur-and-func);
 }
 
-.form-text-area:focus {
+.form-text-area:active {
     fill: #4D5AE5;
 }    
 
-.form-text-area:focus::placeholder {
+.form-text-area:active::placeholder {
     color: #4D5AE5;
 }
 
-.form-group textarea:focus {
+.form-group textarea:active {
     border-color: #4D5AE5;
     outline: none;
 }
@@ -1250,7 +1237,7 @@ background-color: #404BBF;
     border-color: #404BBF;
 }
 
-.form-label-checkbox:focus {
+.form-label-checkbox:active {
     border-color: #404BBF;
 }
 
