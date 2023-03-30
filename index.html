@@ -18,46 +18,81 @@
     <!-- Head Text -->
     <header class="page-header">
       <div class="container header-container">
-            <a href="./index.html" class="first-logo link">Web<span class="second-logo link">Studio</span></a>
+            <nav>
+                <a href="./index.html" class="first-logo link">Web<span class="second-logo link">Studio</span></a>
+            </nav>
+            <button type="button" class="mob.nav.btn js-open-menu">
+                <svg class="mob.open.menu" width="32" height="22">
+                    <use href="./images/symbol-defs.svg#icon-icon-menu"></use>
+                </svg>
+            </button>
             <ul class=" header-list list">
                 <li class="header-item"><a href="./index.html" class="header-link current link">Studio</a></li>
                 <li class="header-item"><a href="./portfolio.html" class="header-link link">Portfolio</a></li>
                 <li class="header-item"><a href="" class="header-link link">Contacts</a></li>
             </ul>
-            </nav>
             <address class="contact">
                 <ul class="contact-item list">
                     <li><a href="mailto:info@devstudio.com" class="contact-mail link">info@devstudio.com</a></li>
                     <li><a href="tel:+110001111111" class="contact-tel link">+11 (000) 111-11-11</a></li>
                 </ul>
             </address>
-                <!-- <button
-                  class="menu-toggle js-open-menu"
-                  aria-expanded="false"
-                  aria-controls="mobile-menu"
-                >
-                  <svg
-                    width="24"
-                    height="24"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
-                </button>
-        
-                <ul class="menu" >
-                  <li><a href="" class="link">About</a></li>
-                  <li><a href="" class="link">Products</a></li>
-                  <li><a href="" class="link">Contacts</a></li>
-                  <li><a href="" class="link">Career</a></li>
+      </div>
+      <div class="menu-container js-menu-container" id="mobile-menu">
+        <div class="mob-menu-container mobile-menu">
+            <button class="menu-toggle js-close-menu" >
+                <svg class="mob-close-icon" width="8" height="8">
+                    <use href="./images/symbol-defs.svg#icon-close-box"></use>
+                </svg>
+            </button>
+            <ul class="mobile-list">
+                <li class="mobile-item">
+                    <a href="./index.html" class="mobile-link">Studio</a>
+                </li>
+                <li class="mobile-item">
+                    <a href="./portfolio.html" class="mobile-link">Portfolio</a>
+                </li>
+                <li class="mobile-item">
+                    <a href="" class="mobile-link">Contacts</a>
+                </li>
+            </ul>
+            <address class="mob-contact">
+                <ul class="mob-contact-item">
+                    <li><a href="tel:+11000111111" class="mob-tel">+11 (000) 111-11-11</a></li>
+                    <li><a href="mailto:info@devstudio.com" class="mob-contact-mail">info@devstudio.com</a></li>
                 </ul>
-     -->
+            </address>
+            <ul class="mob-social-media list">
+                <li class="mob-social-item">
+                    <a href="" class="mob-social-link link">
+                        <svg class="mob-social-icon" width="16" height="16">
+                            <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="mob-social-item">
+                    <a href="" class="mob-social-link link">
+                        <svg class="mob-social-icon" width="16" height="16">
+                            <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="mob-social-item">
+                    <a href="" class="mob-social-link link">
+                        <svg class="mob-social-icon" width="16" height="16">
+                            <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="mob-social-item">
+                    <a href="" class="mob-social-link link">
+                        <svg class="mob-social-icon" width="16" height="16">
+                            <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
       </div>
     </header>
 
@@ -462,32 +497,28 @@
 
 
     <!-- modal-btn -->
-
-<!-- 
-    <div class="menu-container js-menu-container" id="mobile-menu">
+    <!-- <div class="menu-container js-menu-container" id="mobile-menu">
         <button class="menu-toggle js-close-menu" >
-          <svg
-            fill="currentColor"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-              clip-rule="evenodd"
-            ></path>
-          </svg>
-        </button>
-  
-        <ul class="mobile-menu">
-          <li><a href="" class="link">About</a></li>
-          <li><a href="" class="link">Products</a></li>
-          <li><a href="" class="link">Contacts</a></li>
-          <li><a href="" class="link">Career</a></li>
-        </ul>
-      </div> -->
+            <svg class="mob-close-icon" width="8" height="8">
+                <use href="./images/symbol-defs.svg#icon-close-box"></use>
+            </svg>
+        </button> -->
+        <!-- <div class="mob-menu">
+            <nav>
+                <ul class=" header-list list">
+                    <li class="header-item"><a href="./index.html" class="header-link current link">Studio</a></li>
+                    <li class="header-item"><a href="./portfolio.html" class="header-link link">Portfolio</a></li>
+                    <li class="header-item"><a href="" class="header-link link">Contacts</a></li>
+                </ul>
+            </nav>
+                <address class="contact">
+                    <ul class="contact-item list">
+                        <li><a href="mailto:info@devstudio.com" class="contact-mail link">info@devstudio.com</a></li>
+                        <li><a href="tel:+110001111111" class="contact-tel link">+11 (000) 111-11-11</a></li>
+                    </ul>
+                </address>
+        </div>
+    </div> -->
   
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">

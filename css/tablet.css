@@ -9,6 +9,11 @@
         padding-bottom: 96px;
     }
 
+    .mob.nav.btn,
+    .js-open-menu {
+        display: none;
+    }
+
 
     .header-list{
         display: flex;
