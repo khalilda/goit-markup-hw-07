@@ -35,7 +35,7 @@
         padding-bottom: 112px;
     }
 
-    /* @media (min-device-pixel-ratio: 2), 
+    @media (min-device-pixel-ratio: 2), 
     (min-resolution: 192dpi), 
     (min-resolution: 2ddpx) {
     .hero {
@@ -45,7 +45,7 @@
         ), 
         url(../images/tab-hero.jpg);
     }
-} */
+}
 
 
     .hero-head {
@@ -59,6 +59,23 @@
         margin-bottom: 48px;
         width: 496px;
     }
+
+    .hero-btn {
+        font-family: inherit;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+        background-color: var(--accent-color);
+        color: #FFFFFF;
+        background: #4D5AE5;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        padding: 16px 32px;
+        border: transparent;
+    }   
+    
 
 
 

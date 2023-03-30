@@ -922,8 +922,6 @@ img {
   }
   
   .mobile-menu .link {
-    display: block;
-    padding: 10px;
     color: #fff;
     text-decoration: none;
   }
@@ -931,6 +929,7 @@ img {
 
 .mobile-list {
     list-style: none;
+    padding-top: 80px;
 }
 .mobile-item {
     font-family: 'Roboto';
@@ -944,12 +943,21 @@ img {
     margin-bottom: 40px;
 }
 .mobile-link {
+    text-decoration: none;
 }
 .mob-contact {
     padding-top: 284px;
 }
 .mob-contact-item {
     list-style: none;
+}
+
+.mob-tel-prop{
+    margin-bottom: 40px;
+}
+
+.mob-mail-prop {
+
 }
 .mob-tel {
     font-family: 'Roboto';
@@ -960,6 +968,7 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #4D5AE5;
+    text-decoration: none;
     
 }
 .mob-contact-mail {
@@ -970,12 +979,14 @@ img {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #434455;
+    text-decoration: none;
 }
 .mob-social-media {
     display: flex;
     justify-content: center;
     gap: 24px;
-    margin-top: 8px;
+    padding-top: 48px;
+    padding-bottom: 40px;
 }
 
 .mob-social-item {
