@@ -65,7 +65,7 @@
 
 
     .hero-head {
-        font-size: 56px;
+        font-size: 54px;
         line-height: 60px;
         text-align: center;
         letter-spacing: 0.02em;
@@ -222,7 +222,7 @@
     .footer-subs {
         display: flex;
         flex-wrap: nowrap; 
-        margin-left: auto;
+        /* margin-left: auto; */
         margin-top: 96px;
     }
     
@@ -231,9 +231,15 @@
         flex-direction: row;
     }
 
+
     .footer-form-input {
         width: 264px;
-        margin-right: 24px;
+        height: 40px;
+        opacity: 0.3;
+        border: 1px solid #FFFFFF;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+        border-radius: 4px;
+        margin-bottom: 16px;
     }
 
 
@@ -258,6 +264,7 @@
         flex-wrap: wrap;
         align-items: center;
         margin-top: 96px;
+        /* margin-left: 120px; */
     }
 
     .footer-subs {
