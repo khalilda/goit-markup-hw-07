@@ -241,7 +241,7 @@ img {
     margin-right: auto;
 }
 
-/* @media (min-device-pixel-ratio: 2), 
+@media (min-device-pixel-ratio: 2), 
 (min-resolution: 192dpi), 
 (min-resolution: 2ddpx) {
 .hero {
@@ -251,7 +251,7 @@ img {
         ), 
         url(../images/mob-hero.jpg);
     }
-} */
+}
 
 
 .hero-head {
@@ -984,7 +984,8 @@ img {
 
 .mob-social-item {
     width: 40px;
-height: 40px;
+    height: 40px;
+    margin-right: 56px;
 }
 .mob-social-link {
     display: flex;
