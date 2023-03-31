@@ -960,6 +960,10 @@ img {
 }
 .mobile-link {
     text-decoration: none;
+    color: #2E2F42;
+}
+
+.studio-link {
     color: #404BBF;
 }
 
@@ -1005,16 +1009,13 @@ img {
 }
 .mob-social-media {
     display: flex;
-    justify-content: center;
     gap: 24px;
-    padding-top: 48px;
-    padding-bottom: 40px;
+    margin-top: 48px;
 }
 
 .mob-social-item {
     width: 40px;
     height: 40px;
-    margin-right: 56px;
 }
 .mob-social-link {
     display: flex;
