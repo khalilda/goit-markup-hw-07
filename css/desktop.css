@@ -273,7 +273,7 @@
         line-height: 24px;
         letter-spacing: 0.02em;
         color: #FFFFFF;
-        margin-bottom: 14px;
+        margin-bottom: 16px;
         /* margin-top: 96px; */
     }
     
@@ -350,6 +350,7 @@
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
         background: transparent;
         color: rgba(255, 255, 255, 0.3);
+        font-size: 16px;
     }
     
     .footer-input::placeholder {
