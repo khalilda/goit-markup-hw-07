@@ -30,7 +30,7 @@
         height: 4px;
         background: #404BBF;
         border-radius: 2px;
-        bottom: -2px;
+        bottom: 6px;
         left: 0;
     }
 
@@ -50,6 +50,26 @@
         display: flex;
         gap: 40px;
         padding-left: 332px;
+    }
+
+    .contact-tel {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #434455;
+    }
+
+    .contact-mail {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #434455;
     }
 
 
@@ -128,13 +148,19 @@
         width: calc((100% - 72px) / 4);
     } 
 
+    
+    .strategies-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 48px 24px;
+    }
+
     .main-head-three {
         font-family: 'Roboto';
         font-style: normal;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 40px;
-        text-align: center;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
         letter-spacing: 0.02em;
         color: #2E2F42;
     }
@@ -189,8 +215,7 @@
     }
 
     .our-team,
-    .customers,
-    .wwd-size {
+    .customers {
         padding-top: 120px;
         padding-bottom: 120px;
     }
@@ -205,6 +230,7 @@
     .wwd-size {
         display: flex;
         padding-bottom: 120px;
+        padding-top: 0;
     }
 
     .wwd-list {
@@ -276,17 +302,6 @@
 
 
 
-    .footer-form-input {
-        width: 264px;
-        height: 40px;
-        opacity: 0.3;
-        border: 1px solid #FFFFFF;
-        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-        border-radius: 4px;
-        margin: 0;
-    }
-
-
     .footer-text-two {
         width: 100%;
         display: flex;
@@ -346,8 +361,14 @@
         display: flex;
         flex-wrap: wrap;
         align-items: center;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+
     }
     .footer-form-input {
+        width: 264px;
         height: 40px;
         opacity: 0.3;
         border: 1px solid #FFFFFF;
